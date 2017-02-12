@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 2000px;
+}
+
+#box-one,
+#box-two,
+#box-three {
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+
+#box-one {
+    background: url("47014682-natural-wallpaper-min.jpg");
+}
+
+#box-two {
+    background: url("natural-background-images-23-min.jpg");
+}
+
+#box-three {
+    background: url("natural-images-h-d-22-min.jpg");
+}
+
+
+
+.old {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    left: 0px;
+    top: auto;
+    z-index: 999;
+}
+
+.new {
+    position: fixed;
+    width: 100%;
+    bottom: auto;
+    left: 0px;
+    top: 0px;
+    background: red;
+}
+
+#result {
+    position: fixed;
+    font-size: 25px;
+    color: red;
+    top: 50px;
+    left: 20px;
+    z-index: 999;
+    overflow: hidden;
+}
+
